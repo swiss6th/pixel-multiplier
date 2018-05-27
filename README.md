@@ -8,7 +8,7 @@ I wrote Pixel Multiplier because I needed a way to use a mobile phone screen as 
 
 ## Setup
 
-These instructions assume you're setting it up on a Raspberry Pi as a part of [Attacca DMX](../attacca-dmx), as I have. You'll need to adapt this slightly if you're running on a different platform or running without Attacca DMX.
+These instructions assume you're setting it up on a Raspberry Pi as a part of [Attacca DMX](https://github.com/swiss6th/attacca-dmx), as I have. You'll need to adapt this slightly if you're running on a different platform or running without Attacca DMX.
 
 1. Copy `pixel_multiplier.py` to `/usr/local/bin`, renaming to `pixel_multiplier`.
 
@@ -16,7 +16,7 @@ These instructions assume you're setting it up on a Raspberry Pi as a part of [A
 
 1. Copy `pixel_multiplier.environment` and `pixel_multiplier.conf` to `/home/pi`.
 
-1. Set up your pixel routings in [home/pi/pixel_multiplier.conf]. See comments and examples in that file for details.
+1. Set up your pixel routings in [pixel_multiplier.conf](https://github.com/swiss6th/pixel-multiplier/home/pi/pixel_multiplier.conf). See comments and examples in that file for details.
 
 1. Copy `pixel_multiplier.service` to `/etc/systemd/system`.
 
