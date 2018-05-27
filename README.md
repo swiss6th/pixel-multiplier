@@ -12,7 +12,7 @@ These instructions assume you're setting it up on a Raspberry Pi as a part of [A
 
 1. Copy `pixel_multiplier.py` to `/usr/local/bin`, renaming to `pixel_multiplier`.
 
-1. Run `sudo chmod +x /usr/local/bin`.
+1. Run `sudo chmod +x /usr/local/bin/pixel_multiplier`.
 
 1. Copy `pixel_multiplier.environment` and `pixel_multiplier.conf` to `/home/pi`.
 
