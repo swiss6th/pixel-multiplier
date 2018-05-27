@@ -8,11 +8,11 @@ I wrote Pixel Multiplier because I needed a way to use a mobile phone screen as 
 
 ## Setup
 
-These instructions assume you're setting it up on a Raspberry Pi as a part of [Attacca DMX](https://github.com/swiss6th/attacca-dmx), as I have. You'll need to adapt this slightly if you're running on a different platform or running without Attacca DMX.
+These instructions assume you're setting up Pixel Multiplier on a Raspberry Pi as a part of [Attacca DMX](https://github.com/swiss6th/attacca-dmx), as I have. You'll need to adapt this slightly if you're running on a different platform or running without Attacca DMX. For example, take out the references to `olat.target` in the `systemd` unit if you're not using Attacca DMX.
 
 1. Copy `pixel_multiplier.py` to `/usr/local/bin`, renaming to `pixel_multiplier`.
 
-1. Run `sudo chmod +x /usr/local/bin/pixel_multiplier`.
+1. Run `sudo chmod a+x /usr/local/bin/pixel_multiplier`.
 
 1. Copy `pixel_multiplier.environment` and `pixel_multiplier.conf` to `/home/pi`.
 

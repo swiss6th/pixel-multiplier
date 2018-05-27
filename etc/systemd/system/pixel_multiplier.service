@@ -1,5 +1,5 @@
 [Unit]
-Description=Pixel Multiplier
+Description=DMX Pixel Multiplier
 PartOf=olat.target
 BindsTo=olad.service
 After=olad.service olat.target
