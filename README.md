@@ -16,7 +16,7 @@ These instructions assume you're setting it up on a Raspberry Pi as a part of [A
 
 1. Copy `pixel_multiplier.environment` and `pixel_multiplier.conf` to `/home/pi`.
 
-1. Set up your pixel routings in [pixel_multiplier.conf](https://github.com/swiss6th/pixel-multiplier/home/pi/pixel_multiplier.conf). See comments and examples in that file for details.
+1. Set up your pixel routings in [pixel_multiplier.conf](https://github.com/swiss6th/pixel-multiplier/blob/master/home/pi/pixel_multiplier.conf). See comments and examples in that file for details.
 
 1. Copy `pixel_multiplier.service` to `/etc/systemd/system`.
 
