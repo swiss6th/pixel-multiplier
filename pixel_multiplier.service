@@ -1,0 +1,17 @@
+[Unit]
+Description=Pixel Multiplier
+PartOf=olat.target
+BindsTo=olad.service
+After=olad.service olat.target
+
+[Service]
+WorkingDirectory=/home/pi
+Environment=PIXEL_MULTIPLIER_CONF=pixel_multiplier.conf
+EnvironmentFile=-/home/pi/pixel_multiplier.environment
+ExecStart=/usr/local/bin/pixel_multiplier $PIXEL_MULTIPLIER_CONF
+StandardOutput=null
+Nice=-3
+Restart=always
+
+[Install]
+WantedBy=olat.target
